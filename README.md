@@ -2,37 +2,9 @@
 
 This is a modified version of NVIDIA-AI-IOT/JetRacer to meet the need of controlling dual-drive smart cars.
 
-The original version is [JetRacer](https://github.com/NVIDIA-AI-IOT/jetracer).
-
-## The instruction of original version of JetRacer.
-
-<img src="https://user-images.githubusercontent.com/4212806/67442981-ce459e00-f5b7-11e9-9c8a-14ab360decb8.gif" height=256>
-
-JetRacer is an autonomous AI racecar using NVIDIA Jetson Nano.  With JetRacer you will
-
-* Go fast - Optimize for high framerates to move at high speeds
-
-* Have fun - Follow examples and program interactively from your web browser
-
-By building and experimenting with JetRacer you will create fast AI pipelines and push the boundaries of speed.
+The original version is [JetRacer](https://github.com/NVIDIA-AI-IOT/jetracer). For the single-drive smart cars, please refer to the former link.
 
 To get started, follow the [setup](#setup) below.
-
-### Cars
-
-There are two different JetRacer cars that you can build.  They differ primarily in size and speed.  Which one to pick depends on your use case
-
-|  Latrax Rally | Tamiya TT02 |
-|--------------|---------------|
-| <img src="https://user-images.githubusercontent.com/25759564/67250038-b1c22e00-f41e-11e9-82d2-bbb17526310b.jpg" width=256>  | <img src="https://user-images.githubusercontent.com/25759564/67250039-b1c22e00-f41e-11e9-931f-98c1729550d0.jpg" width=320>  | 
-| 1/18th scale |  1/10th scale |
-| Moderate Speed  |  High Speed  |
-| ~$400 total build cost | ~$600 total build cost |
-| Compact and portable |  Large and easy to modify |
-| Soldering required |  No soldering required  |
-| Base car pre-assembled | Base car assembly required |
-
-If you have any questions, please reach out by [creating an issue](../..//issues).
 
 
 ### Examples
@@ -54,19 +26,9 @@ In this example, you'll teach JetRacer how to follow a road using AI.  After tra
 ### Setup
 
 To get started with JetRacer, follow these steps
-
-1. Order parts from the bill of materials
-
-    - [Latrax version](docs/latrax/bill_of_materials.md) 
-    - [Tamiya version](docs/tamiya/bill_of_materials.md) 
-
-2. Follow the hardware setup
-
-    - [Latrax version](docs/latrax/hardware_setup.md) 
-    - [Tamiya version](docs/tamiya/hardware_setup.md) 
-
-3. Follow the [software setup](docs/software_setup.md)
-4. Run through the [examples](docs/examples.md)
+1. Wiring of the [hardware] (docs/Wiring.md)
+2. Follow the [software setup](docs/software_setup.md)
+3. Run through the [examples](docs/examples.md)
 
 ## See also
 
