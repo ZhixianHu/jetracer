@@ -76,11 +76,11 @@ After finishing these steps, you'll be all set to program JetRacer.  Once you're
     sudo python3 setup.py install
     ```
     
-2. Execute the following in a terminal to install the [JetRacer](http://github.com/NVIDIA-AI-IOT/jetracer) package
+2. Execute the following in a terminal to install the [JetRacer](https://github.com/ZhixianHu/jetracer) package
  
      ```bash
      cd $HOME
-     git clone https://github.com/NVIDIA-AI-IOT/jetracer
+     git clone https://github.com/ZhixianHu/jetracer
      cd jetracer
      sudo python3 setup.py install
      ```
