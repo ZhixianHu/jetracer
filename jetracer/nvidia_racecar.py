@@ -44,3 +44,6 @@ class NvidiaRacecar(Racecar):
         if change['new'] == -1:
             GPIO.output('SPI2_CS1', GPIO.LOW)
             GPIO.output('SPI2_CS0', GPIO.HIGH)
+        if change['new'] == 0:
+            self.throttle_moter._pwm_out.duty_cycle = 0
+            self.throttle_moter_1._pwm_out.duty_cycle = 0
