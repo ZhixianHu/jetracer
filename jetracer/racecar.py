@@ -31,7 +31,7 @@ class Racecar(traitlets.HasTraits):
     def _clip_direction(self, proposal):
         if proposal['value'] > 0:
             return 1
-        elif proposal['value'] > 0:
+        elif proposal['value'] < 0:
             return -1
         else:
             return 0
