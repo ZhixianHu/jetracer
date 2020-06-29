@@ -1,9 +1,13 @@
 import traitlets
 
-
 class Racecar(traitlets.HasTraits):
     steering = traitlets.Float()
     throttle = traitlets.Float()
+    direction = traitlets.Int()
+    
+    @traitlets.default('direction')
+    def _default_direction(self):
+        return 1
     
     @traitlets.validate('steering')
     def _clip_steering(self, proposal):
@@ -22,3 +26,10 @@ class Racecar(traitlets.HasTraits):
             return -1.0
         else:
             return proposal['value']
+    
+    @traitlets.validate('direction')
+    def _clip_direction(self, proposal):
+        if proposal['value'] >= 0:
+            return 1
+        else:
+            return -1
