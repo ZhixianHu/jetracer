@@ -26,7 +26,7 @@ In this example, you'll teach JetRacer how to follow a road using AI.  After tra
 ### Setup
 
 To get started with JetRacer, follow these steps
-1. Wiring of the [hardware] (docs/Wiring.md)
+1. Wiring of the [hardware](docs/wiring.md)
 2. Follow the [software setup](docs/software_setup.md)
 3. Run through the [examples](docs/examples.md)
 
