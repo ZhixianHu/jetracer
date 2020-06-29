@@ -6,7 +6,8 @@ The original version is [JetRacer](https://github.com/NVIDIA-AI-IOT/jetracer). F
 
 To get started, follow the [setup](#setup) below.
 
-;#### Examples
+<--!
+#### Examples
 
 JetRacer comes with a couple examples to get you up and running.  The examples are in the format of Jupyter Notebooks, which are interactive documents which combine text, code, and visualization.  Once you've completed the notebooks, start tweaking them to create your own racing software!
 
@@ -21,6 +22,7 @@ In this example you'll learn to progam JetRacer programatically from your web br
 In this example, you'll teach JetRacer how to follow a road using AI.  After training the neural network using the [interactive training notebook](notebooks/interactive_regression.ipynb), you'll optimize the model using NVIDIA TensorRT and deploy for a live demo. Learn more in the [examples](docs/examples.md).
 
 <img src="https://user-images.githubusercontent.com/4212806/60383389-bd7b8600-9a24-11e9-9f64-926e5edb52cc.gif" height=300/>
+-->
 
 ### Setup
 
