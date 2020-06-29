@@ -1,4 +1,10 @@
-# JetRacer
+# JetRacer - Dual-drive version
+
+This is a modified version of NVIDIA-AI-IOT/JetRacer to meet the needs of controlling dual-drive smart cars.
+
+The original version is [JetRacer](https://github.com/NVIDIA-AI-IOT/jetracer).
+
+## The instruction of original version of JetRacer.
 
 <img src="https://user-images.githubusercontent.com/4212806/67442981-ce459e00-f5b7-11e9-9c8a-14ab360decb8.gif" height=256>
 
@@ -12,7 +18,7 @@ By building and experimenting with JetRacer you will create fast AI pipelines an
 
 To get started, follow the [setup](#setup) below.
 
-## Cars
+### Cars
 
 There are two different JetRacer cars that you can build.  They differ primarily in size and speed.  Which one to pick depends on your use case
 
@@ -29,23 +35,23 @@ There are two different JetRacer cars that you can build.  They differ primarily
 If you have any questions, please reach out by [creating an issue](../..//issues).
 
 
-## Examples
+### Examples
 
 JetRacer comes with a couple examples to get you up and running.  The examples are in the format of Jupyter Notebooks, which are interactive documents which combine text, code, and visualization.  Once you've completed the notebooks, start tweaking them to create your own racing software!
 
-### Example 1 - Basic motion
+#### Example 1 - Basic motion
 
 In this example you'll learn to progam JetRacer programatically from your web browser.  Learn more in the [examples](docs/examples.md) documentation.
 
 <img src="https://user-images.githubusercontent.com/4212806/60383497-68d90a80-9a26-11e9-9a18-778b7d3a3221.gif" height=300/>
 
-### Example 2 - Road following
+#### Example 2 - Road following
 
 In this example, you'll teach JetRacer how to follow a road using AI.  After training the neural network using the [interactive training notebook](notebooks/interactive_regression.ipynb), you'll optimize the model using NVIDIA TensorRT and deploy for a live demo. Learn more in the [examples](docs/examples.md).
 
 <img src="https://user-images.githubusercontent.com/4212806/60383389-bd7b8600-9a24-11e9-9f64-926e5edb52cc.gif" height=300/>
 
-## Setup
+### Setup
 
 To get started with JetRacer, follow these steps
 
