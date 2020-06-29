@@ -1,6 +1,6 @@
 # JetRacer - Dual-drive version
 
-This is a modified version of NVIDIA-AI-IOT/JetRacer to meet the needs of controlling dual-drive smart cars.
+This is a modified version of NVIDIA-AI-IOT/JetRacer to meet the need of controlling dual-drive smart cars.
 
 The original version is [JetRacer](https://github.com/NVIDIA-AI-IOT/jetracer).
 
