@@ -64,6 +64,7 @@ To get started with JetRacer, follow these steps
 
 ## See also
 
+* [JetRacer](https://github.com/NVIDIA-AI-IOT/jetracer) - An autonomous AI racecar using NVIDIA Jetson Nano
 * [JetBot](http://github.com/NVIDIA-AI-IOT/jetbot) - An educational AI robot based on NVIDIA Jetson Nano
 
 * [JetCam](http://github.com/NVIDIA-AI-IOT/jetcam) - An easy to use Python camera interface for NVIDIA Jetson
