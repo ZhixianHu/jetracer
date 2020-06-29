@@ -29,7 +29,9 @@ class Racecar(traitlets.HasTraits):
     
     @traitlets.validate('direction')
     def _clip_direction(self, proposal):
-        if proposal['value'] >= 0:
+        if proposal['value'] > 0:
             return 1
-        else:
+        elif proposal['value'] > 0:
             return -1
+        else:
+            return 0
